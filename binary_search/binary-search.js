@@ -1,3 +1,5 @@
+const array = Array(100).fill(0).map((item, index) => index + 1);
+
 const binarySearch = (array, item) => {
   let start = 0;
   let end = array.length - 1;
@@ -17,3 +19,5 @@ const binarySearch = (array, item) => {
 
   return 'The value does not exist';
 };
+
+console.log(binarySearch(array, 77));
