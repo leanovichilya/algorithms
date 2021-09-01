@@ -15,5 +15,5 @@ const binarySearch = (array, item) => {
     }
   }
 
-  return 'Значение не существует';
+  return 'The value does not exist';
 };
